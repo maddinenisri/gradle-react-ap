@@ -3,7 +3,7 @@ plugins {
 }
 
 apply plugin: 'base'
-apply plugin: "com.moowork.node"
+apply plugin: "com.github.node-gradle.node"
 
 node {
     version = "13.12.0"
