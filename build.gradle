@@ -10,9 +10,7 @@ node {
     download = true
     npmVersion = "6.14.4"
     yarnVersion = "1.22.4"
-    workDir = project.file("${project.buildDir}/nodejs")
-    npmWorkDir = project.file("${project.buildDir}/npm")
-    yarnWorkDir = project.file("${project.buildDir}/yarn")
+    
 }
 
 task bundle(type: NpmTask, dependsOn: npmInstall) {
